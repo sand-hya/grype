@@ -12,10 +12,10 @@ on:
      - '!**.md'
      - '!LICENSE'
      - '!test/**'
-    branches: [ main ]
+    branches: [ v0.80.1_release ]
 
-  schedule:
-    - cron: '0 14 * * 4'
+  # schedule:
+  #   - cron: '0 14 * * 4'
 
 env:
   CODEQL_EXTRACTOR_GO_BUILD_TRACING: on
